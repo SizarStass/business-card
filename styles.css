@@ -8,6 +8,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-image: url(https://media2.giphy.com/media/IcZhFmufozDCij3p22/giphy.gif?cid=ecf05e47zlxgrhd0mxfwt0wh27q8fwpk2upo71gm5tmnj2u0&ep=v1_gifs_search&rid=giphy.gif&ct=g);
     background-size:100px;
+    
 
 }
 
@@ -35,7 +36,13 @@ body {
 
 .card {
     width: 400px;
-    margin: 300px auto;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:  auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
