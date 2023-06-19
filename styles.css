@@ -6,6 +6,9 @@ body {
     to your card.
     */
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://media2.giphy.com/media/IcZhFmufozDCij3p22/giphy.gif?cid=ecf05e47zlxgrhd0mxfwt0wh27q8fwpk2upo71gm5tmnj2u0&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size:contain;
+
 }
 
 .avatar {
@@ -32,7 +35,7 @@ body {
 
 .card {
     width: 400px;
-    margin: 0 auto;
+    margin: 190px auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
